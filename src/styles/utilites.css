@@ -1,0 +1,85 @@
+/*************************
+Utlilites
+*************************/
+
+/*************************
+Colors
+*************************/
+.bg-ios-accent {
+  background-color: hsl(var(--color-ios-accent));
+}
+
+.bg-android-accent {
+  background-color: hsl(var(--color-android-accent));
+}
+
+.bg-equal-accent {
+  background-color: hsl(var(--color-equal-accent));
+}
+
+.bg-white {
+  background-color: hsl(var(--color-white));
+}
+
+.bg-black {
+  background-color: hsl(var(--color-black));
+}
+
+.fc-white {
+  color: hsl(var(--color-white));
+}
+
+/*************************
+Typography
+*************************/
+.ff-sans-serif {
+  font-family: var(--ff-sans-serif);
+}
+
+/*************************
+Layout
+*************************/
+.container {
+  padding-inline: 2rem;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 2rem);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flow {
+  --space: 1rem;
+}
+
+.flow > * + * {
+  margin-top: var(--space);
+}
+
+/*************************
+Design System
+*************************/
+.color-swatch {
+  flex-basis: 33%;
+}
+
+.color-swatch div {
+  height: 75px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.mr-4\.5 {
+  margin-right: 4.5rem;
+}
+
+.border {
+  border: 1px solid hsl(var(--color-black));
+}

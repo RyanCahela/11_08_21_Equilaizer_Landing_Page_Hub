@@ -1,0 +1,19 @@
+/*************************
+Custom Properties
+*************************/
+
+:root {
+  /*************************
+  Colors
+  *************************/
+  --color-ios-accent: 177 68% 64%;
+  --color-equal-accent: 12 94% 65%;
+  --color-android-accent: 33 100% 70%;
+  --color-white: 20 33% 98%;
+  --color-black: 244 23% 12%;
+
+  /*************************
+  Typography
+  *************************/
+  --ff-sans-serif: "IBM Plex Sans", sans-serif;
+}
