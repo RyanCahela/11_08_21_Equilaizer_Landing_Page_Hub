@@ -16,4 +16,12 @@ Custom Properties
   Typography
   *************************/
   --ff-sans-serif: "IBM Plex Sans", sans-serif;
+  --fw-bold: 700;
+  --fw-regular: 500;
+  --fs-200: 1rem; /* 16px */
+  --fs-300: 1.125rem; /* 18px */
+  --fs-400: 1.25rem; /* 20px */
+  /* --fs-500 for future use if needed */
+  --fs-600: 2.5rem; /* 40px */
+  --fs-700: 5.5rem; /* 88px */
 }

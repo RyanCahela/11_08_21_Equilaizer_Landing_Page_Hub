@@ -29,11 +29,35 @@ Colors
   color: hsl(var(--color-white));
 }
 
+.fc-black {
+  color: hsl(var(--color-black));
+}
+
+.fc-gray {
+  color: hsl(var(--color-black) / 0.5);
+}
+
 /*************************
 Typography
 *************************/
 .ff-sans-serif {
   font-family: var(--ff-sans-serif);
+}
+
+.h1,
+.h2 {
+  font-weight: var(--fw-bold);
+}
+
+.h1 {
+  font-size: var(--fs-700);
+  line-height: var(--fs-700);
+  letter-spacing: -1px;
+}
+
+.h2 {
+  font-size: var(--fs-600);
+  line-height: 52px;
 }
 
 /*************************
@@ -48,19 +72,29 @@ Layout
 
 .flex {
   display: flex;
-  gap: var(--gap, 2rem);
+  gap: var(--gap, 1rem);
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap, 1rem);
 }
 
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-.flow {
-  --space: 1rem;
+.basis-50 {
+  flex-basis: 50%;
+}
+
+.new-flow-scope > * {
+  --flow-space: 1rem;
 }
 
 .flow > * + * {
-  margin-top: var(--space);
+  margin-top: var(--flow-space, 1rem);
 }
 
 /*************************
