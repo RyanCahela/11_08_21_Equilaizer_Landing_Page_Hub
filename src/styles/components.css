@@ -1,14 +1,10 @@
 /*************************
 Components
 *************************/
-.body-desktop {
-  font-size: var(--fs-400);
-  line-height: 2.125rem; /* 36px */
-}
-
-.body-mobile {
+.body {
   font-size: var(--fs-200);
   line-height: 1.625rem;
+  background-image: url("../assets/bg-main-mobile.png");
 }
 
 .card {
@@ -26,9 +22,34 @@ Components
   align-items: center;
 }
 
+.social-icon {
+  cursor: pointer;
+  color: hsl(var(--color-black));
+}
+
+.social-icon:hover {
+  color: hsl(var(--color-equal-accent));
+}
+
 /*************************
 Design System
 *************************/
 .color-swatches {
   justify-content: space-between;
+}
+
+/* Tablet Size */
+@media screen and (min-width: 768px) {
+  .body {
+    background-image: url("../assets/bg-main-tablet.png");
+  }
+}
+
+/* Desktop Size */
+@media screen and (min-width: 1440px) {
+  .body {
+    font-size: var(--fs-400);
+    line-height: 2.125rem; /* 36px */
+    background-image: url("../assets/bg-main-desktop.png");
+  }
 }
