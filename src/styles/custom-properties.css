@@ -21,7 +21,23 @@ Custom Properties
   --fs-200: 1rem; /* 16px */
   --fs-300: 1.125rem; /* 18px */
   --fs-400: 1.25rem; /* 20px */
-  /* --fs-500 for future use if needed */
+  --fs-500: 2rem; /* 32px */
   --fs-600: 2.5rem; /* 40px */
-  --fs-700: 5.5rem; /* 88px */
+  --fs-700: 3rem; /* 48px */
+  --fs-800: 4rem; /* 64px */
+  --fs-900: 5.5rem; /* 88px */
+
+  /* H1 Values */
+  --mobile-h1-line-height: 3rem; /* 48px */
+  --mobile-h1-letter-spacing: -0.45px;
+
+  --tablet-h1-line-height: var(--fs-800);
+  --tablet-h1-letter-spacing: -0.73px;
+
+  --desktop-h1-line-height: var(--fs-900);
+  --desktop-h1-letter-spacing: -1px;
+
+  /* H2 Values */
+  --mobile-h2-line-height: 2.5rem; /* 40px */
+  --desktop-h2-line-height: 3.25rem; /* 52px */
 }
