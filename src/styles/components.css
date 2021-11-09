@@ -11,6 +11,21 @@ Components
   line-height: 1.625rem;
 }
 
+.card {
+  padding-inline: 3.375rem;
+  padding-bottom: 3rem;
+  padding-top: 3.625rem;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  padding-block: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 /*************************
 Design System
 *************************/

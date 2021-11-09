@@ -44,6 +44,14 @@ Typography
   font-family: var(--ff-sans-serif);
 }
 
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-regular {
+  font-weight: var(--fw-bold);
+}
+
 .h1,
 .h2 {
   font-weight: var(--fw-bold);
@@ -85,12 +93,12 @@ Layout
   flex-wrap: wrap;
 }
 
-.basis-50 {
-  flex-basis: 50%;
+.justify-between {
+  justify-content: space-between;
 }
 
-.new-flow-scope > * {
-  --flow-space: 1rem;
+.basis-50 {
+  flex-basis: 50%;
 }
 
 .flow > * + * {
@@ -116,4 +124,8 @@ Design System
 
 .border {
   border: 1px solid hsl(var(--color-black));
+}
+
+.rounded-corners {
+  border-radius: 12px;
 }
