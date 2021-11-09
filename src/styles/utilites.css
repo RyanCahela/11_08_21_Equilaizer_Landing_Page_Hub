@@ -89,7 +89,7 @@ Typography
     font-size: var(--fs-600);
     line-height: var(--desktop-h2-line-height);
   }
-}
+
 
 /*************************
 Layout
@@ -112,6 +112,10 @@ Layout
 
 .justify-between {
   justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .basis-50 {

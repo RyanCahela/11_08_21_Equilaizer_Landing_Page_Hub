@@ -13,6 +13,12 @@ Components
   padding-top: 3.625rem;
 }
 
+.copyright {
+  font-size: var(--fs-200);
+  line-height: 26px;
+  max-width: 366px;
+}
+
 .button {
   border: none;
   cursor: pointer;
@@ -20,6 +26,14 @@ Components
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
 }
 
 .social-icon {
