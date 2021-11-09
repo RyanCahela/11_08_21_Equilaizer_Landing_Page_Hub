@@ -89,7 +89,7 @@ Typography
     font-size: var(--fs-600);
     line-height: var(--desktop-h2-line-height);
   }
-
+}
 
 /*************************
 Layout
@@ -124,6 +124,17 @@ Layout
 
 .flow > * + * {
   margin-top: var(--flow-space, 1rem);
+}
+
+.section-container {
+  padding-top: 2.5rem;
+  padding-inline: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .page-container {
+    padding-inline: 2rem;
+  }
 }
 
 /*************************

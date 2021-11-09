@@ -40,4 +40,7 @@ Custom Properties
   /* H2 Values */
   --mobile-h2-line-height: 2.5rem; /* 40px */
   --desktop-h2-line-height: 3.25rem; /* 52px */
+
+  /* Hero-section__paragraph */
+  --mobile-hero-section__paragarph-line-height: 26px;
 }

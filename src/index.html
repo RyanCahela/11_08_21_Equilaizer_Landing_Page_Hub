@@ -15,8 +15,8 @@
     <title>Equalizer</title>
   </head>
   <body class="body">
-    <div class="container | ff-sans-serif fc-black">
-      <header class="flex">
+    <div class="page-container | ff-sans-serif fc-black">
+      <header class="header flex section-container">
         <!--Equalizer Logo-->
         <div>
           <svg width="147" height="33" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@
           </svg>
         </div>
         <!-- Funky Background Pattern -->
-        <div>
+        <div class="funky-bg-pattern">
           <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
               <path
@@ -73,9 +73,12 @@
         </div>
       </header>
       <!-- Hero Section -->
-      <section class="">
+      <section
+        class="hero-section flow section-container"
+        style="--flow-space: 1.25rem"
+      >
         <h1 class="h1">We make your music sound extraordinary.</h1>
-        <p>
+        <p class="hero-section__p-mobile paragraph |">
           A system audio equalizer specifically designed for Android and iOS.
           Freely tune the way your music sounds with a professional grade
           parametric EQ & volume mixer. Control bass, mids, treble, gain
@@ -83,16 +86,18 @@
         </p>
       </section>
       <!-- Offer Section -->
-      <section class="offer-section bg-black">
+      <section class="offer-section bg-black rounded-corners">
         <!-- mobile phone -->
-        <div>
+        <div class="offer-section__mobile-phone">
           <img
             src="assets/illustration-app.png"
             alt="illustration of the eq app"
           />
         </div>
         <!-- card call to action -->
-        <div class="card | fc-white bg-equal-accent rounded-corners">
+        <div
+          class="offer-section__card | fc-white bg-equal-accent rounded-corners"
+        >
           <h2 class="h2">Premium EQ</h2>
           <p>
             Get expert-level control with a robust equalizer, volume mixer, and
@@ -124,7 +129,7 @@
           </button>
         </div>
       </section>
-      <footer class="footer | flex">
+      <footer class="footer | flex section-container">
         <div>
           <svg width="147" height="33" xmlns="http://www.w3.org/2000/svg">
             <g fill="#191826">
