@@ -18,8 +18,8 @@ Components
 
 .copyright {
   font-size: var(--fs-200);
-  line-height: 26px;
-  max-width: 366px;
+  line-height: 1.625rem;
+  max-width: 22.875px;
 }
 
 .funky-bg-pattern {
@@ -75,7 +75,7 @@ Components
 
 .paragaph {
   font-size: var(--300);
-  line-height: 28px;
+  line-height: 1.75rem;
 }
 
 .social-links {
