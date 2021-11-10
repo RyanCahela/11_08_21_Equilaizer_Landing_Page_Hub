@@ -165,6 +165,12 @@ Layout
 
 @media screen and (min-width: 768px) {
   .section-container {
+    /*******************
+    section-container is to help with some 
+    components touching the side of the viewport 
+    in mobile view, once in tablet view we can 
+    just turn off and let page-container take over. 
+    *********************/
     padding-inline: 0;
   }
 
