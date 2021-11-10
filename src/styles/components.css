@@ -32,7 +32,11 @@ Components
 }
 
 .hero-section {
-  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gap-400);
+  padding-top: 4rem;
 }
 
 .hero-section__p-mobile {

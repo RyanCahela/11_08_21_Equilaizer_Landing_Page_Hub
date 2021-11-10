@@ -43,4 +43,16 @@ Custom Properties
 
   /* Hero-section__paragraph */
   --mobile-hero-section__paragarph-line-height: 1.625rem;
+
+  /*************************
+  Layout
+  *************************/
+  --gap-200: 1rem; /* 16px */
+  --gap-300: 1.125rem; /* 18px */
+  --gap-400: 1.25rem; /* 20px */
+  --gap-500: 2rem; /* 32px */
+  --gap-600: 2.5rem; /* 40px */
+  --gap-700: 3rem; /* 48px */
+  --gap-800: 4rem; /* 64px */
+  --gap-900: 5.5rem; /* 88px */
 }
