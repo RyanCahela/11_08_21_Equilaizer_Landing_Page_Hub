@@ -5,6 +5,7 @@ Components
   font-size: var(--fs-200);
   line-height: 1.625rem;
   background-image: url("../assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -23,6 +24,7 @@ Components
   font-size: var(--fs-200);
   line-height: 1.625rem;
   max-width: 22.875rem;
+  padding-top: ;
 }
 
 .funky-bg-pattern {
@@ -30,8 +32,16 @@ Components
 }
 
 .footer {
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  padding-bottom: 5rem;
+}
+
+.footer__heading {
+  padding-bottom: 2rem;
+}
+
+.footer__social-links {
+  padding-top: 4rem;
 }
 
 .header {
@@ -98,21 +108,22 @@ Components
 }
 
 .card__price {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-200);
   padding-top: 2.25rem;
   padding-bottom: 2rem;
 }
 
-.card__price span:first-child {
+.card__price div:first-child {
   font-weight: var(--fw-bold);
   font-size: var(--fs-800);
+  line-height: 3.25rem;
 }
 
 .paragaph {
   font-size: var(--300);
   line-height: 1.75rem;
-}
-
-.social-links {
 }
 
 .social-icon {
