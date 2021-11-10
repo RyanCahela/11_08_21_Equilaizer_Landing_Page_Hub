@@ -6,6 +6,7 @@ Components
   line-height: 1.625rem;
   background-image: url("../assets/bg-main-mobile.png");
   background-repeat: no-repeat;
+  background-position: left -20%;
 }
 
 .button {
@@ -79,25 +80,36 @@ Components
   right: 0;
 }
 
-.offer-section__bg-image {
+.offer-section__bg-container {
   overflow: hidden;
 }
 
+.offer-section__bg-container img {
+  object-position: top center;
+  object-fit: contain;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
 .offer-section__mobile-phone-image {
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  top: 50px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 .offer-section__card {
   padding-inline: 2.25rem;
   padding-bottom: 3rem;
   padding-top: 3rem;
   position: relative;
-  top: -60px;
+  top: -40px;
   z-index: 2;
 }
 
