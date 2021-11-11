@@ -70,10 +70,6 @@ Components
 }
 
 .offer-section {
-  /* background-image: url("../assets/bg-pattern-2.svg");
-  background-size: 80%;
-  background-position: top center;
-  background-repeat: no-repeat; */
   padding-top: 10.375rem;
   position: relative;
   left: 0;
@@ -171,8 +167,21 @@ Media Queries
     top: -40px;
   }
 
+  .hero-section {
+    max-width: 32.5rem;
+  }
+
   .offer-section__card {
     padding: 3rem;
+    max-width: 25rem;
+  }
+
+  .offer-section__mobile-phone-image {
+    width: 16.875rem;
+  }
+
+  .offer-section__bg-container img {
+    width: 17.5rem;
   }
 }
 
