@@ -55,4 +55,5 @@ Custom Properties
   --gap-700: 3rem; /* 48px */
   --gap-800: 4rem; /* 64px */
   --gap-900: 5.5rem; /* 88px */
+  --border-radius: 10px;
 }

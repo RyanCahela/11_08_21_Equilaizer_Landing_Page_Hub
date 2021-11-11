@@ -3,7 +3,7 @@ Components
 *************************/
 .body {
   font-size: var(--fs-200);
-  line-height: 1.625rem;
+  line-height: 1.625;
   background-image: url("../assets/bg-main-mobile.png");
   background-repeat: no-repeat;
   background-position: left -20%;
@@ -85,6 +85,7 @@ Components
   background-image: url("../assets/bg-pattern-2.svg");
   background-position: top center;
   background-repeat: no-repeat;
+  border-radius: var(--border-radius);
   display: block;
   background-size: 80%;
   width: 100%;
@@ -103,6 +104,7 @@ Components
   top: calc(-1 * var(--mobile-phone-vertical-offset));
   z-index: 2;
 }
+
 .offer-section__card {
   padding-inline: 2.25rem;
   padding-bottom: 3rem;
@@ -172,7 +174,7 @@ Media Queries
   }
 
   .hero-section {
-    max-width: 32.5rem;
+    max-width: 70%;
     padding-top: 5.9375rem;
   }
 
@@ -183,15 +185,32 @@ Media Queries
   }
 
   .offer-section {
+    --mobile-phone-vertical-offset: 15vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 30vw;
+    position: relative;
   }
 
-  .offer-section__card {
-    padding: 3rem;
-    max-width: 25rem;
+  .offer-section::before {
+    background-size: 40%;
+    height: 60%;
   }
 
   .offer-section__mobile-phone-image {
-    width: 16.875rem;
+    display: inline-block;
+    width: 30vw;
+    margin-left: 0;
+    z-index: 1;
+  }
+
+  .offer-section__card {
+    display: inline-block;
+    padding: 3rem;
+    max-width: 25rem;
+    position: absolute;
+    top: 30vw;
+    right: 10%;
   }
 
   .offer-section__bg-container img {
