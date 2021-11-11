@@ -57,7 +57,7 @@ Components
   padding-top: 4rem;
 }
 
-.hero-section__p-mobile {
+.hero-section__copy {
   /* 
   This paragraph has slightly smaller font than a 
   standard paragarph so this is assigning special 
@@ -158,6 +158,7 @@ Media Queries
 @media screen and (min-width: 768px) {
   .body {
     background-image: url("../assets/bg-main-tablet.png");
+    background-position: top -30% left 80%;
   }
 
   .funky-bg-pattern {
@@ -169,6 +170,13 @@ Media Queries
 
   .hero-section {
     max-width: 32.5rem;
+    padding-top: 5.9375rem;
+  }
+
+  .hero-section__copy {
+    padding-top: 1.75rem;
+    font-size: var(--fs-300);
+    line-height: 1.5;
   }
 
   .offer-section__card {
