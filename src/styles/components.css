@@ -173,6 +173,10 @@ Media Queries
     top: -40px;
   }
 
+  .footer {
+    padding-top: 2rem;
+  }
+
   .hero-section {
     max-width: 70%;
     padding-top: 5.9375rem;
@@ -188,7 +192,7 @@ Media Queries
     --mobile-phone-vertical-offset: 15vw;
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-bottom: 30vw;
+    padding-bottom: 15rem;
     position: relative;
   }
 
@@ -210,7 +214,7 @@ Media Queries
     padding: 3rem;
     max-width: 25rem;
     position: absolute;
-    top: 30vw;
+    top: 40%;
     right: 100px;
   }
 
@@ -232,6 +236,10 @@ Media Queries
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .offer-section {
+    padding-bottom: 10rem;
   }
 
   .offer-section__card {
