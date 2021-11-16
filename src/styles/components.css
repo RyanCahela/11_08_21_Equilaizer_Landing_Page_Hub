@@ -39,6 +39,7 @@ Components
 
 .footer__heading {
   padding-bottom: 2rem;
+  grid-column: 1 / -1;
 }
 
 .footer__social-links {
@@ -47,6 +48,7 @@ Components
 
 .header {
   padding-top: 2.5rem;
+  grid-area: "social-links";
 }
 
 .hero-section {
@@ -175,6 +177,14 @@ Media Queries
 
   .footer {
     padding-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "heading heading"
+      "social-links";
+  }
+
+  .footer__social-links {
+    justify-self: end;
   }
 
   .hero-section {
@@ -203,7 +213,7 @@ Media Queries
 
   .offer-section__mobile-phone-image {
     display: inline-block;
-    width: 30%;
+    width: 270px;
     max-width: 280px;
     margin-left: 0;
     z-index: 1;
@@ -229,6 +239,22 @@ Media Queries
     font-size: var(--fs-400);
     line-height: 2.125rem; /* 36px */
     background-image: url("../assets/bg-main-desktop.png");
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__heading {
+    padding-bottom: 0;
+    align-self: flex-start;
+    padding-right: 8.625rem;
+  }
+
+  .footer__social-links {
+    padding-top: 0;
+    margin-left: auto;
   }
 
   .page-container {
