@@ -5,11 +5,13 @@ Utlilites
 /*************************
 Colors
 *************************/
-.bg-ios-accent {
+.hover-bg-ios-accent:hover,
+.hover-bg-ios-accent:focus-visible {
   background-color: hsl(var(--color-ios-accent));
 }
 
-.bg-android-accent {
+.hover-bg-android-accent:hover,
+.hover-bg-android-accent:focus-visible {
   background-color: hsl(var(--color-android-accent));
 }
 
